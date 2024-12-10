@@ -8,7 +8,7 @@ const PlayerContextProvider = (props) => {
   const seekBg = useRef();
   const seekBar = useRef();
 
-  const url = "http://localhost:4000";
+  const url = "https://music-system-full-stack.onrender.com";
 
   const [songsData, setSongsData] = useState([]);
   const [albumsData, setAlbumData] = useState([]);
